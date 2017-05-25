@@ -1,0 +1,740 @@
+/* Medium Layout: 1367px. */
+
+@media only screen and (min-width: 1025px) and (max-width: 1367px) {}
+
+/* Tablet Layout: 992px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    /* Nav Style */
+    .navbar-nav {
+        float: left;
+        width: 100%;
+    }
+    .navbar-nav > li.active {
+        border-bottom: 0px;
+    }
+    .navbar-nav > li {
+        width: 100%;
+        border-bottom: 1px solid #1f1f1f;
+    }
+    .navbar-default .navbar-nav > li {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar-default .navbar-nav >.active > a:after {
+        width: 97%;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block!important;
+        border-top: 1px solid #fff;
+        margin-top: 60px;
+    }
+    /* Hero Section */
+    .hero-slider-inner.owl-carousel .owl-item img {
+        width: auto;
+        height: 100%;
+        -webkit-transform: translateX(33%);
+        -moz-transform: translateX(33%);
+        -ms-transform: translateX(33%);
+        -o-transform: translateX(33%);
+        transform: translateX(33%);
+    }
+    /* Service Section */
+    .service-content-light,
+    .service-content-dip {
+        padding: 50px 15px;
+    }
+    /* Special Menu Section */
+    .menu-title li,
+    .menu-title-2 li {
+        margin: 0px 7px 15px;
+    }
+    .recipe-info {
+        width: 40%;
+        bottom: 15px;
+        right: 15px;
+        padding: 15px;
+    }
+    /* Online Store Section */
+    .portfolio-filter li,
+    .portfolio-filter-2 li {
+        margin: 0px 7px 15px;
+    }
+    .short-content {
+        width: 100%;
+    }
+    /* Testimonial Sevtion */
+    .team-carousel .item-wrap {
+        padding: 0px 20px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+    /* Utility Class */
+    .inner-padding {
+        padding: 60px 0px;
+    }
+    .inner-padding2 {
+        padding: 60px 0px 40px;
+    }
+    .inner-padding3 {
+        padding: 60px 0px 30px;
+    }
+    /* Nav Style */
+    .navbar-nav > li.active {
+        border-bottom: 0px;
+    }
+    .navbar-nav > li {
+        width: 100%;
+        border-bottom: 1px solid #1f1f1f;
+    }
+    .navbar-default .navbar-nav > li {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar> .container .navbar-brand {
+        padding: 8px 0px;
+    }
+    .navbar-default .navbar-nav >.active > a:after {
+        width: 97%;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block!important;
+        border-top: 1px solid #fff;
+        margin-top: 60px;
+    }
+    /* Hero Section */
+    .hero-slider-inner .owl-item img {
+        height: 100%;
+        width: auto;
+        float: none;
+    }
+    /* About Section */
+    .about-bg {
+        width: 98%;
+    }
+    .about-content-right {
+        position: inherit;
+        float: left;
+        width: 95%;
+        margin: 60px 5% 0px;
+        top: 0;
+        padding: 30px;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    /* Service Section */
+    .service-left .service-widget:first-child,
+    .service-left .service-div:first-child {
+        margin-left: 0px;
+    }
+    .service-right .service-widget:first-child,
+    .service-right .service-div:first-child {
+        margin-left: 0px;
+    }
+    /* Special Menu Section */
+    .menu-title li,
+    .menu-title-2 li {
+        margin: 0px 7px 15px;
+    }
+    .recipe-info {
+        width: 50%;
+        bottom: 5px;
+        right: 5px;
+        padding: 15px;
+    }
+    .recipe-info h4 {
+        margin-bottom: 15px;
+    }
+    .recipe-info .price {
+        margin-bottom: 0px;
+    }
+    .recipe-info .price span {
+        font-size: 22px;
+    }
+    .recipe-info h5,
+    .recipe-info p {
+        display: none;
+    }
+    /* Online Store Section */
+    .portfolio-filter li,
+    .portfolio-filter-2 li {
+        margin: 0px 7px 15px;
+    }
+    .short-content {
+        width: 100%;
+    }
+    /* Event Section */
+    .events-left,
+    .events-left2 {
+        margin-bottom: 30px;
+    }
+    .event-content {
+        width: 45%;
+        padding: 15px;
+    }
+    /* Fun Fact Section */
+    .fun-widget i {
+        font-size: 18px;
+    }
+    .fun-widget span {
+        font-size: 18px;
+    }
+    .fun-widget h5 {
+        font-size: 26px;
+    }
+    /* Testimonial Sevtion */
+    .team-carousel .item-wrap {
+        padding: 0px 15px;
+    }
+    .testimonial-carousel .item .content,
+    .testimonial-carousel-2 .item .content {
+        padding-left: 150px;
+    }
+    /* Footer Section */
+    .footer-social-link {
+        padding: 20px;
+    }
+    .footer-content {
+        margin-bottom: 30px;
+    }
+    .copyright-area {
+        padding: 62px 0px;
+    }
+    /* Product Details Page */
+    .product-tab-slider .owl-nav {
+        opacity: 1;
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    .related-item {
+        margin: 0;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    /* Utilly Class */
+    .inner-padding {
+        padding: 40px 0px;
+    }
+    .inner-padding2 {
+        padding: 40px 0px 30px;
+    }
+    .inner-padding3 {
+        padding: 40px 0px;
+    }
+    .mobile-show {
+        display: inline-block;
+    }
+    .show-xs {
+        display: inline-block;
+        width: 30%;
+    }
+    .scroll-top,
+    .scroll-top2 {
+        display: none!important;
+    }
+    /* typography Style */
+    .section-title,
+    .section-title-2,
+    .section-title-white,
+    .section-title-2-white {
+        margin-bottom: 30px;
+    }
+    .section-title h2 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .section-title-2 h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    /* Nav Style */
+    .nav-area {
+        background-color: #fff;
+    }
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        width: 100%;
+        height: 350px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding: 13px;
+    }
+    .navbar-default .navbar-nav >.active > a:after {
+        width: 94%;
+    }
+    .navbar-nav > li.active {
+        border-bottom: 0px;
+    }
+    .navbar-nav > li {
+        width: 100%;
+        border-bottom: 1px solid #1f1f1f;
+    }
+    .navbar> .container .navbar-brand {
+        padding: 6px 8px;
+        margin: 0;
+    }
+    /* Hero Section */
+    .hero-area,
+    .hero-caption {
+        min-height: 0px;
+        height: 100vh;
+    }
+    .hero-area:after {
+        opacity: .6;
+    }
+    .hero-caption h1,
+    .hero-caption .lead,
+    .hero-caption .lead5 {
+        font-size: 40px;
+    }
+    .hero-caption-holder {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .hero-caption .lead3,
+    .hero-caption .lead4,
+    .hero-caption .lead6,
+    .hero-caption .lead7 {
+        font-size: 28px;
+        line-height: 34px;
+        padding: 8px;
+    }
+    /* About Section */
+    .about-left h3,
+    .about-left2 h3,
+    .about-details h3 {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+    .about-right {
+        margin: 15px;
+        padding: 15px;
+    }
+    .about-bg {
+        width: 95%;
+    }
+    .about-banner {
+        top: 0px;
+    }
+    .about-content-right {
+        position: inherit;
+        float: left;
+        width: 100%;
+        margin: 60px 5% 0px;
+        top: 0;
+        padding: 20px;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    .about-content {
+        padding: 15px;
+    }
+    /* Service Section */
+    .icons,
+    .service-div .icons {
+        width: 75px;
+        height: 75px;
+        margin-top: 15px;
+    }
+    .flaticon:before,
+    .service-div .flaticon:before {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .service-left .service-widget:first-child,
+    .service-left .service-div:first-child,
+    .service-right .service-widget:first-child,
+    .service-right .service-div:first-child,
+    .service-left .service-widget,
+    .service-left .service-div {
+        margin: 0px 0px 30px;
+    }
+    .service-content-light,
+    .service-content-dip {
+        padding: 15px 5px;
+    }
+    /* Special Menu Section */
+    .menu-title li,
+    .menu-title-2 li {
+        margin: 3px;
+    }
+    .menu-title-2 .flaticon:before,
+    .menu-title .flaticon:before {
+        font-size: 18px;
+    }
+    .menu-title-2 h4,
+    .menu-title h4 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .single-item-tab {
+        padding: 2px 15px;
+    }
+    .tab-widget,
+    .tab-widget2 {
+        width: 280px;
+        height: 280px;
+    }
+    .special-caption p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .special-caption li {
+        margin: 8px;
+    }
+    .reality-list li {
+        margin: 0 8px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .btn-bubbles,
+    .btn-bubbles-2 {
+        top: 10px;
+        right: 35px;
+    }
+    .recipe-info {
+        width: auto;
+        bottom: 5px;
+        right: 5px;
+        padding: 10px;
+    }
+    .recipe-info h4 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 3px;
+    }
+    .recipe-info .price {
+        margin-bottom: 0px;
+    }
+    .recipe-info .price span {
+        font-size: 16px;
+    }
+    .recipe-info h5,
+    .recipe-info p {
+        display: none;
+    }
+    .menu-slider-inner .owl-nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    .menu-slider-inner .owl-prev,
+    .menu-slider-inner .owl-next {
+        padding: 8px 15px;
+        line-height: 24px;
+        float: none;
+        margin: 10px 5px 0px;
+    }
+    /* Special Section */
+    .special-caption h3 {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .special-caption h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .special-caption h3.small {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    /* Reservation Section */
+    .input-group {
+        margin-bottom: 15px;
+    }
+    /* Online Store Section */
+    .portfolio-filter li,
+    .portfolio-filter2 li {
+        margin: 0px 1px 5px;
+        padding: 2px;
+    }
+    .portfolio-filter li span,
+    .portfolio-filter2 li span {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 3px 20px;
+    }
+    .store-items {
+        padding: 0;
+        margin: 30px auto 0px;
+    }
+    .short-content {
+        width: 100%;
+    }
+    .store-pro-name,
+    .store-pro-name2 {
+        font-size: 18px;
+    }
+    /* Event Section */
+    .events-left {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .events-left2 {
+        width: 95%;
+        margin: 30px auto 15px;
+    }
+    .event-content {
+        position: inherit;
+        width: 90%;
+        margin: 5%;
+        top: 0;
+        padding: 20px;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    .events-right h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .events-right p {
+        padding: 0;
+    }
+    .cdown {
+        margin: 10px;
+        padding: 10px 15px;
+    }
+    .cdown .time-count {
+        font-size: 20px;
+    }
+    /* Fun Fact Section */
+    .fun-widget {
+        margin-bottom: 30px;
+    }
+    .fun-widget i {
+        font-size: 20px;
+    }
+    /* Testimonial Section */
+    .testimonial-carousel .item .content {
+        padding: 15px 15px 15px 70px;
+    }
+    .testimonial-carousel .item .avatar i {
+        font-size: 20px;
+        padding: 8px;
+    }
+    .testimonial-carousel .item .auth-name:after {
+        width: 30px;
+    }
+    .testimonial-carousel .item .auth-name {
+        padding-left: 40px;
+    }
+    .testimonial-carousel-2 .item .content {
+        padding: 15px 15px 15px 70px;
+    }
+    .testimonial-carousel-2 .item .avatar i {
+        font-size: 20px;
+        padding: 8px;
+    }
+    .testimonial-carousel-2 .item .auth-name:after {
+        width: 30px;
+    }
+    .testimonial-carousel-2 .item .auth-name {
+        padding-left: 40px;
+    }
+    /* Cart Page */
+    .table-col {
+        width: 100%;
+    }
+    .cart-product-list li {
+        display: block;
+        border-right: 1px solid #e2e2e2;
+    }
+    .cart-price,
+    .cart-pro-qty,
+    .cart-total-price {
+        text-align: left;
+    }
+    .cart-pro-action {
+        text-align: right;
+    }
+    .cart-pro-qty .show-xs {
+        float: left;
+    }
+    .cart-table-footer .btn-md {
+        margin-top: 15px;
+    }
+    .coupon {
+        text-align: center;
+    }
+    /* Footer Section */
+    footer {
+        display: block;
+    }
+    .footer-area {
+        display: block;
+    }
+    .footer-social-link li {
+        margin: 30px 10px;
+    }
+    .contact-area {
+        padding: 30px 0px;
+    }
+    .footer-content {
+        margin: 30px 0;
+    }
+    .footer-content p,
+    .footer-content span {
+        margin-bottom: 10px;
+    }
+    .copyright-area {
+        padding: 25px 0px;
+    }
+    /* Home page 2 */
+    .hero-area .owl-carousel .owl-item img {
+        float: none;
+        width: auto;
+    }
+    .hero-caption-holder h3 {
+        font-size: 18px;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+    .hero-caption-holder h2 {
+        font-size: 42px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    /* Product Details Page */
+    .page-header {
+        height: 300px;
+    }
+    .header-caption {
+        padding-top: 50px;
+    }
+    .header-caption-inner h1 {
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+    .header-caption-inner p,
+    .header-caption-inner a {
+        font-size: 14px;
+    }
+    .product-tab-slider {
+        margin: 20px 0px;
+    }
+    .product-info-area {
+        padding: 40px 0px;
+    }
+    .product-tab-slider .owl-next,
+    .product-tab-slider .owl-prev {
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .product-tab-slider .owl-nav {
+        opacity: 1;
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    .product-info-area .tab-content {
+        padding: 15px;
+    }
+    .tags-list a,
+    .tags-list2 a {
+        padding: 5px 15px;
+        margin: 3px;
+    }
+    .comment-text {
+        padding: 90px 0px 5px 0px;
+    }
+    .section-heading {
+        margin-bottom: 15px;
+    }
+    .section-heading h2 {
+        font-size: 20px;
+    }
+    .related-item {
+        margin-bottom: 30px;
+    }
+    /* Cart Page */
+    .action-btn {
+        text-align: center;
+        margin: 15px 0px 0px;
+    }
+    .cart-table-footer {
+        padding: 15px 0px;
+    }
+    .bill-details {
+        padding: 15px 0px;
+    }
+    .cart-shipping-title {
+        margin-bottom: 15px;
+    }
+    /* Checkout Page */
+    .your-order {
+        padding: 15px;
+        margin-top: 15px;
+    }
+    .order-table {
+        padding: 0;
+    }
+    .table-head {
+        padding: 0;
+    }
+    .table-body li {
+        padding: 5px 0px;
+    }
+    .each-product-name {
+        width: 70%;
+        float: left;
+        display: block;
+    }
+    .each-product-name,
+    .your-order .price {
+        font-size: 13px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {}
